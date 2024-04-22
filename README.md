@@ -17,7 +17,7 @@ go get github.com/xuri/excelize
 ```
 
 
-### Using
+### Code
 
 Here is a minimal example.
 
