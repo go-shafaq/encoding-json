@@ -13,7 +13,7 @@ Added future:
 ### Installation
 
 ```bash
-go get github.com/xuri/excelize
+go get github.com/go-shafaq/encoding-json
 ```
 
 
