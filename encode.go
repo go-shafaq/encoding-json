@@ -1120,7 +1120,7 @@ func typeFields(t reflect.Type) structFields {
 
 				//---changed---gopher-summer---
 				if name == "" {
-					name = defCase(f.typ.PkgPath(), sf.Name)
+					name = defCase.Convert("json", f.typ.PkgPath(), sf.Name)
 				}
 				//---changed---gopher-summer---
 
